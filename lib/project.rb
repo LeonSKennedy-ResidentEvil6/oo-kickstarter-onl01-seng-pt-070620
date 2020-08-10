@@ -3,5 +3,6 @@ class Project
   attr_reader :backers
 
   def initialize(title)
-  end 
+    @title = title
+  end
 end
